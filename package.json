@@ -20,9 +20,7 @@
   "homepage": "https://bitbucket.org/nickstellato/mat-wrangler#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "reload": "^2.2.2"
-  },
-  "devDependencies": {
+    "reload": "^2.2.2",
     "nodemon": "^1.15.0"
   }
 }
