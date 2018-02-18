@@ -17,5 +17,8 @@
   ],
   "author": "Nick Stellato",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/nickstellato/mat-wrangler#readme"
+  "homepage": "https://bitbucket.org/nickstellato/mat-wrangler#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
