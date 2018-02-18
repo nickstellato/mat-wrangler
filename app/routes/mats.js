@@ -10,6 +10,7 @@ router.get('/mats', function(req, res) {
 	res.send(`
 		<h1>Mat Wrangler</h1>
 		${mats}
+		<script src="/reload/reload.js"></script>
 	`);
 });
 
@@ -18,6 +19,7 @@ router.get('/mats/:id', function(req, res) {
     var mat = dataFile.mats[req.params.id];
 	res.send(`
 		<h1>${mat.name}</h1>
+		<script src="/reload/reload.js"></script>
 	`);
 });
 
