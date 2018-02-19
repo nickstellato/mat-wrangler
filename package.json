@@ -19,8 +19,9 @@
   "license": "MIT",
   "homepage": "https://bitbucket.org/nickstellato/mat-wrangler#readme",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "reload": "^2.2.2",
-    "nodemon": "^1.15.0"
+    "nodemon": "^1.15.0",
+    "reload": "^2.2.2"
   }
 }
