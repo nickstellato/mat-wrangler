@@ -1,27 +1,24 @@
 {
-  "name": "mat-wrangler",
+  "name": "mean-stack-front-to-back",
   "version": "1.0.0",
-  "description": "A web application used to manage wrestling tournaments.",
-  "main": "app/app.js",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -e css,ejs,js,json --watch app"
+    "start": "nodemon app"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/nickstellato/mat-wrangler.git"
-  },
-  "keywords": [
-    "node",
-    "express"
-  ],
-  "author": "Nick Stellato",
-  "license": "MIT",
-  "homepage": "https://bitbucket.org/nickstellato/mat-wrangler#readme",
   "dependencies": {
-    "ejs": "^2.5.7",
-    "express": "^4.16.2",
-    "nodemon": "^1.15.0",
-    "reload": "^2.2.2"
-  }
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.17.3",
+    "npm": "^5.8.0",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Nick Stellato",
+  "license": "ISC"
 }
